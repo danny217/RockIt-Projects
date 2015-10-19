@@ -1,0 +1,139 @@
+body { 
+	margin: 0;
+	background: url("../images/background.jpg");
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+
+.logo {
+	padding: 7px;
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: rgb(75, 75, 75);
+}
+
+header {
+	padding: 1px;
+	height: 105px;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+footer {
+	padding: 7px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.05em;
+	color: white;
+	font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .39em;
+}
+
+li {
+	color: white;
+	display: inline;
+	font-size: 1.05em;
+	font-weight: 600;
+ }
+	
+
+.headColor a:link {
+	color: #fff;
+}
+
+.headColor a:visited {
+	color: #fff;
+}
+
+.headColor {
+	border: solid rgb(75, 75, 75) 1px;
+	padding: 7px;
+	height: 1.95em;
+	background-color: rgb(75, 75, 75);
+}
+
+.headerSpan{
+	color: white;
+	padding: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 204, 0);
+}
+
+.mainBox {
+	border-radius: 10px;
+	margin: 10px;
+	height: 127px;
+	background: rgba(255, 255, 255, .8);
+}
+
+.mainBoxContact {
+	border-radius: 10px;
+	margin: 10px;
+	height: 127px;
+	background: rgba(255, 255, 255, .8);
+}
+
+.mainText {
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 3em;
+	color: rgb(0, 204, 0);
+}
+
+.mainPText {
+	margin-top: -6px;
+	margin-left: 10px;
+	font-size: 1.3em;
+	padding: 4px;
+	color: black;
+}
+
+.labelTextP {
+	margin-top: -6px;
+	margin-left: 10px;
+	font-size: 1.5em;
+	padding: 4px;
+	color: black;
+}
+
+.labelTextQ {
+	margin-top: -6px;
+	margin-left: -5px;
+	font-size: 1.5em;
+	padding: 4px;
+	color: black;
+}
+
+.dropList {
+	border-radius: 5px;
+	width: 200px;
+}
+
+.browseList {
+	margin-top: -6px;
+}
+
+.button {
+	border-radius: 8px;
+}
+
+.mainTextView {
+	margin-top: 0;
+	padding: 20px;
+	font-size: 3em;
+	color: rgb(0, 204, 0);
+}
+
+.textContact{
+	margin-top: -6px;
+	font-size: 1.3em;
+	padding: 18px;
+	color: black;
+}

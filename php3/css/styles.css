@@ -1,0 +1,95 @@
+/***************************************
+  Defaults
+***************************************/
+body {
+	background-color: #000; 
+	color: rgb(0, 173, 0);
+}
+
+button {
+	border-radius: 5px;
+	background-color: rgb(0, 173, 0);
+	border-color: rgb(0, 173, 0);
+	font-family: Bangers;
+	color: black;
+}
+
+input:valid {	 
+	background-color: #ddffdd;
+}
+
+input:required {
+	border-color: #800000;
+	border-width: 3px;
+}
+
+input:invalid {
+ 	background-color: #ffdddd;
+}
+
+a {
+	color: black;
+}
+
+/***************************************
+  Layout
+***************************************/
+
+.menu {
+	transform: rotate(-2deg) skew(5deg);
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	margin: 30px;
+	word-spacing: .8em; 
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+form{
+	display: flex;
+	flex-flow: column;
+}
+
+/***************************************
+  Component
+***************************************/
+
+.error{
+	color: red;
+	font-family: Bangers;
+	font-size: 32pt; 
+}
+
+.neon, .neon:hover .broken {
+	color: transparent;
+	font-size: 100px;
+	font-family: Londrina Sketch;
+	font-style: italic;
+	text-decoration: none;
+	letter-spacing: .06em;
+	text-shadow: 0 0 0.02em #bbff33, 0.04em 0.02em 0.05em rgba(204, 255, 102, 0.8), 0.03em 0.03em 0.1em green, 0.03em 0.03em 0.1em green, -0.03em 0.03em 0.1em green, -0.03em -0.03em 0.1em green, 0.03em 0.03em 0.8em green, 0.03em -0.03em 0.8em green, -0.03em 0.03em 0.8em green, -0.03em -0.03em 0.8em green; 
+}
+
+.neon .broken, .neon:hover .broken .broken {
+    text-shadow: 0 0 0.02em rgba(0, 173, 0, 0.6), 0.04em 0.02em 0.05em rgba(0, 46, 0, 0.3), 0.03em 0.03em 0.1em rgba(0, 15, 0, 0.3), 0.03em 0.03em 0.1em rgba(15, 98, 15, 0.3), -0.03em 0.03em 0.1em rgba(15, 98, 15, 0.3), -0.03em -0.03em 0.1em rgba(15, 98, 15, 0.3); 
+}
+
+p, form div{
+	text-align: center;
+	padding: 10px;
+	font-family: Bangers;
+	font-size: 22pt;
+}
+
+form button{
+	text-align: center;
+	padding: 10px;
+	font-family: Bangers;
+	font-size: 22pt;
+	width: 200px;
+	margin: 0 auto;
+}
+
